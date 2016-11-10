@@ -59,7 +59,7 @@ stem_flag = False
 retval = os.getcwd()
 print ("Current Path: %s" % retval)
 
-for corpus_idx in [1, 3, 4, 5, 2]:
+for corpus_idx in [1, 2, 3, 4, 5]:
     corpus_name = 'corpus'+str(corpus_idx)
     print('--------------------- Start Process %s ------------------------' % corpus_name)
     # initialize path
